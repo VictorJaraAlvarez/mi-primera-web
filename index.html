@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Historia de la Web en HTML5 Semántico</title>
+</head>
+<body>
+  <!-- Encabezado principal del documento sobre la historia de la web -->
+  <header>
+    <h1>Historia de la Web: Desde los Documentos enlazados hasta el Estándar Semántico</h1>
+    <p>Un recorrido extenso por la evolución arquitectónica, conceptual y técnica de la World Wide Web, desde sus orígenes en los laboratorios de investigación hasta la consolidación de las estructuras semánticas de HTML5.</p>
+  </header>
+
+  <!-- Navegación interna hacia las distintas secciones temáticas -->
+  <nav>
+    <h2>Índice de Secciones</h2>
+    <ul>
+      <li><a href="#origenes">Orígenes e Hipertexto</a></li>
+      <li><a href="#primeras-etapas">Primeras Etapas y Estándares Iniciales</a></li>
+      <li><a href="#evolucion-visual">Separación de Estructura y Presentación</a></li>
+      <li><a href="#html5-semantica">HTML5 y la Web Semántica</a></li>
+      <li><a href="#impacto-cultural">Impacto Cultural y Acceso Abierto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal dividido en secciones y artículos -->
+  <main>
+    <section id="origenes">
+      <h2>Orígenes e Hipertexto</h2>
+      <p>La historia de la web no comenzó con un único invento aislado, sino con décadas de reflexión sobre cómo organizar, enlazar y recuperar el conocimiento humano. Mucho antes de que existieran navegadores o protocolos de red globales, pensadores y científicos imaginaron sistemas donde las ideas pudieran conectarse de forma asociativa y no puramente lineal.</p>
+
+      <article>
+        <h3>Antecedentes Conceptuales del Hipertexto</h3>
+        <p>Durante la primera mitad del siglo XX, el crecimiento acelerado de las publicaciones científicas evidenció los límites de los índices tradicionales y las bibliotecas físicas. Se buscaban mecanismos que permitieran seguir trayectorias de lectura basadas en asociaciones de temas, citas y referencias cruzadas, imitando en cierta medida el funcionamiento asociativo de la memoria humana.</p>
+        <p>A estos aportes teóricos se sumaron desarrollos posteriores en computación interactiva, interfaces gráficas y sistemas de información compartida. Cada avance aportó una pieza fundamental: la edición colaborativa, los enlaces bidireccionales o unidireccionales, la visualización en pantalla y la comunicación entre máquinas a través de redes.</p>
+      </article>
+
+      <article>
+        <h3>El Proyecto en el CERN y el Nacimiento de la World Wide Web</h3>
+        <p>A finales de los años ochenta y principios de los noventa, en el laboratorio europeo de física de partículas CERN, surgió la necesidad práctica de compartir documentos, notas técnicas e informes entre investigadores dispersos en distintos equipos y países. La diversidad de sistemas operativos y formatos dificultaba mantener una base de conocimiento coherente y accesible.</p>
+        <p>En ese contexto se diseñó un sistema basado en tres pilares complementarios: un identificador uniforme para localizar recursos, un protocolo ligero de transferencia de información y un lenguaje de marcado sencillo para estructurar documentos con enlaces. Con ello nació la World Wide Web como un espacio de información universal conectado por hipervínculos.</p>
+      </article>
+
+      <figure>
+        <figcaption>Esquema conceptual de los orígenes: nodos de información interconectados mediante enlaces sobre una red global, estructurados con marcado ligero para facilitar su lectura en múltiples terminales.</figcaption>
+      </figure>
+    </section>
+
+    <section id="primeras-etapas">
+      <h2>Primeras Etapas y Estándares Iniciales</h2>
+      <p>En sus inicios, la web era un territorio sobrio y eminentemente textual. Los primeros documentos priorizaban la claridad de la lectura, la jerarquía de los títulos, los párrafos, las listas y los vínculos entre páginas antes que los efectos visuales complejos.</p>
+
+      <article>
+        <h3>El Espíritu de HTML 1.0 y los Primeros Documentos</h3>
+        <p>Los primeros borradores y usos de HTML se enfocaron en describir la función estructural de cada fragmento de texto dentro de un documento. Un encabezado indicaba un título principal o secundario, un párrafo delimitaba una unidad de lectura y las listas organizaban elementos secuenciales o temáticos.</p>
+        <p>Al no existir todavía capas complejas de diseño ni lenguajes de programación del lado del cliente en el navegador, la navegación dependía directamente de la arquitectura de enlaces y de la claridad con la que el autor organizaba el contenido.</p>
+      </article>
+
+      <article>
+        <h3>Expansión Rápida y Multiplicación de Navegadores</h3>
+        <p>A medida que la web salió del ámbito académico y científico, surgieron nuevos navegadores y servidores que impulsaron su adopción masiva. La posibilidad de publicar información y enlazarla con cualquier otro recurso disponible en la red transformó la manera en que se difundían noticias, documentación técnica y proyectos personales.</p>
+        <p>Sin embargo, este crecimiento acelerado también trajo tensiones entre las propuestas de estandarización y las extensiones propietarias introducidas por distintos fabricantes, lo que motivó esfuerzos continuos para mantener la interoperabilidad entre plataformas.</p>
+      </article>
+    </section>
+
+    <section id="evolucion-visual">
+      <h2>Separación de Estructura y Presentación</h2>
+      <p>Con el paso de los años, los autores de sitios web buscaron mayor control sobre la tipografía, los colores, los márgenes y la disposición de los elementos en pantalla. Durante un tiempo, el propio marcado HTML acumuló etiquetas y atributos orientados a la apariencia visual.</p>
+
+      <article>
+        <h3>Límites del Marcado Centrado en la Apariencia</h3>
+        <p>Mezclar la estructura lógica del documento con instrucciones visuales hacía que los archivos fueran más difíciles de mantener, más pesados de transmitir y menos adaptables a distintos dispositivos o lectores alternativos. Un cambio de diseño en un sitio grande podía exigir revisar numerosos documentos.</p>
+        <p>Asimismo, cuando las etiquetas se usaban solo por su efecto visual en lugar de por su significado, se perdía información valiosa sobre qué representaba realmente cada parte del contenido.</p>
+      </article>
+
+      <article>
+        <h3>Hacia una Arquitectura Más Clara y Mantenible</h3>
+        <p>La maduración de los estándares web reforzó la idea de que el documento HTML debía expresar la estructura y el significado de la información, mientras que otras tecnologías se ocupaban de la presentación y del comportamiento interactivo. Esta separación permitió construir sitios más ordenados, accesibles y duraderos.</p>
+        <p>A pesar de los avances en diseño y dinamismo, el núcleo del documento continuó siendo un árbol de elementos con jerarquía lógica que los navegadores, motores de búsqueda y tecnologías de asistencia pueden interpretar.</p>
+      </article>
+    </section>
+
+    <section id="html5-semantica">
+      <h2>HTML5 y la Web Semántica</h2>
+      <p>HTML5 marcó un paso decisivo al dotar al lenguaje de etiquetas específicas que describen el rol estructural de las distintas partes de una página. En lugar de recurrir únicamente a contenedores genéricos o a convenciones implícitas, el estándar ofreció elementos con nombre y propósito definidos.</p>
+
+      <article>
+        <h3>Secciones, Artículos y Regiones con Significado</h3>
+        <p>Etiquetas como header, nav, main, section, article, aside y footer permiten delimitar con precisión las cabeceras introductorias o de sección, los bloques de navegación, el contenido principal, las agrupaciones temáticas, las piezas independientes de contenido, la información complementaria y los pies de página o de sección.</p>
+        <p>Gracias a esta semántica explícita, tanto las personas que leen el código fuente como las herramientas automatizadas comprenden mejor cómo se articula el documento y qué información es central frente a la que es secundaria o contextual.</p>
+      </article>
+
+      <article>
+        <h3>Claridad Documental y Resiliencia del Estándar</h3>
+        <p>El enfoque semántico de HTML5 favorece documentos limpios, legibles y fáciles de auditar. Cuando cada etiqueta cumple su función propia, la jerarquía de encabezados, los artículos y las secciones construyen un mapa coherente del tema tratado.</p>
+        <p>Además, los navegadores modernos cuentan con reglas sólidas para interpretar documentos HTML5 bien estructurados, garantizando que el contenido siga siendo accesible y comprensible incluso sin capas adicionales de presentación.</p>
+      </article>
+
+      <figure>
+        <figcaption>En la arquitectura semántica de HTML5, cada región cumple una función clara: cabecera, navegación, contenido principal dividido en secciones y artículos, notas complementarias y pie de página.</figcaption>
+      </figure>
+    </section>
+
+    <section id="impacto-cultural">
+      <h2>Impacto Cultural y Acceso Abierto</h2>
+      <p>Más allá de los protocolos y las especificaciones técnicas, la historia de la web es también la historia de cómo se publica, se aprende y se colabora a escala global. Reducir la barrera de entrada para crear documentos enlazados permitió que millones de personas compartieran conocimiento sin depender de intermediarios complejos.</p>
+
+      <article>
+        <h3>Educación, Documentación y Conocimiento Compartido</h3>
+        <p>La web se convirtió en un archivo vivo de manuales, ensayos, cursos, repositorios y bitácoras. La posibilidad de enlazar directamente a una fuente o a una sección específica transformó la investigación y el aprendizaje autodidacta.</p>
+        <p>Comprender los fundamentos del lenguaje web ayuda a valorar cómo las estructuras simples y bien definidas sostienen sistemas de información complejos y duraderos.</p>
+      </article>
+
+      <article>
+        <h3>Vigencia de los Fundamentos en una Web en Constante Cambio</h3>
+        <p>Aunque las herramientas, los dispositivos y las aplicaciones evolucionan continuamente, los principios de estructura clara, jerarquía de encabezados y semántica siguen siendo esenciales. Un documento bien organizado es más fácil de leer, mantener y adaptar a nuevos contextos.</p>
+        <p>Revisar la trayectoria desde los primeros hipertextos hasta HTML5 permite apreciar la continuidad entre la simplicidad original de la web y la madurez de sus estándares actuales.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Información complementaria al margen del flujo principal -->
+  <aside>
+    <h2>Notas y Glosario Breve</h2>
+    <p><strong>Hipertexto:</strong> Forma de organizar información en la que los textos contienen enlaces que conectan con otros conceptos, secciones o documentos.</p>
+    <p><strong>Semántica en HTML5:</strong> Uso de etiquetas cuyo nombre describe el papel estructural o el significado del contenido que contienen, más allá de su apariencia visual.</p>
+    <p><strong>Estándares Abiertos:</strong> Especificaciones públicas y consensuadas que permiten que distintos navegadores y sistemas interpreten los documentos de manera coherente.</p>
+  </aside>
+
+  <!-- Pie de página con información de cierre y contacto -->
+  <footer>
+    <h2>Créditos y Contacto</h2>
+    <p>Documento elaborado con HTML5 semántico puro sobre la historia de la World Wide Web, sin hojas de estilo ni scripts.</p>
+    <address>
+      <p>Archivo Histórico y Educativo de la Web<br>
+      Contacto: <a href="mailto:archivo@ejemplo.org">archivo@ejemplo.org</a></p>
+    </address>
+    <p>Última revisión temática: <time datetime="2026-11-21">21 de noviembre de 2026</time>.</p>
+  </footer>
+</body>
+</html>
